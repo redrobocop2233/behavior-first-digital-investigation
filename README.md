@@ -1,4 +1,4 @@
-The **AI-Based Forensic Investigation System** is a cutting-edge, privacy-preserving digital forensics tool that analyzes behavioural patterns across multiple data sources to detect suspicious activities, coordinated groups, and high-risk entities.
+The **DEVICEMOLE** is a cutting-edge, privacy-preserving digital forensics tool that analyzes behavioural patterns across multiple data sources to detect suspicious activities, coordinated groups, and high-risk entities.
 
 ### **Why This System?**
 Traditional forensics focuses on **WHO** (identities). This system focuses on **HOW** (behavioural patterns). By analyzing behaviours rather than personal data, we can detect threats while protecting privacy.
@@ -13,9 +13,9 @@ The system aims to aid:
 How to Run
 
 1)
-    git clone [https://github.com/redrobocop2233/behavior-first-investigation.git](https://github.com/redrobocop2233/behavior-first-digital-investigation/tree/main)
+    git clone https://github.com/redrobocop2233/DEVICEMOLE.git
 
-  cd behavior-first-investigation 
+  cd DEVICEMOLE
 
 2) Create a Virtual Environment
 
