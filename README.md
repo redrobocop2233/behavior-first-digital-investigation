@@ -12,7 +12,7 @@ The system aims to aid:
 
 How to Run
 
-1) git clone https://github.com/redrobocop2233/behavior-first-investigation.git
+1) git clone [https://github.com/redrobocop2233/behavior-first-investigation.git](https://github.com/redrobocop2233/behavior-first-digital-investigation/tree/main)
 cd behavior-first-investigation
 
 2) Create a Virtual Environment
