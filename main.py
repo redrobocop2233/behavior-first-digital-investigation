@@ -1,4 +1,4 @@
-"""Main entry point for the Behavior-First Investigation System."""
+"""Main entry point for the DEVICEMOLE."""
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -32,7 +32,7 @@ class BehaviorFirstInvestigationSystem:
         """Execute the complete investigation pipeline."""
 
         print("=" * 60)
-        print("BEHAVIOR-FIRST INVESTIGATION SYSTEM")
+        print("BEHAVIOUR-FIRST INVESTIGATION SYSTEM - DEVICEMOLE")
         print("=" * 60)
 
         # Step 1: Load and anonymize data
@@ -51,7 +51,7 @@ class BehaviorFirstInvestigationSystem:
               f"{self.event_graph.number_of_edges()} edges")
 
         # Step 3: Extract features
-        print("\n[3/7] Extracting behavioral features...")
+        print("\n[3/7] Extracting behavioural features...")
         feature_extractor = FeatureExtractor(self.event_graph)
         self.features_df = feature_extractor.extract_all_features()
         print(f"Extracted features for {len(self.features_df)} entities")
@@ -158,12 +158,12 @@ class BehaviorFirstInvestigationSystem:
         """Analyze specific behavioral patterns of interest."""
 
         print("\n" + "=" * 60)
-        print("BEHAVIORAL PATTERN ANALYSIS")
+        print("BEHAVIOURAL PATTERN ANALYSIS")
         print("=" * 60)
 
         # Find entities with high behavioral drift
         high_drift = self.risk_results.nlargest(5, 'behavioral_drift')
-        print("\nEntities with highest behavioral drift (significant behavior change):")
+        print("\nEntities with highest behavioural drift (significant behaviour change):")
         for idx, row in high_drift.iterrows():
             print(f"  {row['entity_id']}: drift={row['behavioral_drift']:.3f}, "
                   f"risk={row['risk_score']:.3f}")
