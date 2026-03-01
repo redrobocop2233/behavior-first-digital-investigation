@@ -1,0 +1,68 @@
+================================================================================
+BEHAVIOR-FIRST DIGITAL INVESTIGATION REPORT
+================================================================================
+
+Report Generated: 2026-03-01 11:42:59.636837
+
+Total Entities Analyzed: 5107
+Total Events Processed: 62708
+
+----------------------------------------
+RISK ANALYSIS
+----------------------------------------
+High Risk (Requires Review): 0
+Medium Risk: 3279
+Low Risk: 1828
+
+----------------------------------------
+ANOMALY DETECTION
+----------------------------------------
+Entities with Anomalous Behavior: 451
+Average Risk Score of Anomalies: 0.202
+
+----------------------------------------
+COORDINATION DETECTION
+----------------------------------------
+Entities in Coordinated Groups: 5106
+Number of Coordination Clusters: 5
+Largest Cluster Size: 3279
+
+----------------------------------------
+ETHICAL FIREWALL ACTIVITY
+----------------------------------------
+Identity Reveal Requests: 0
+Court-Approved Reveals: 0
+Automatic Forgetting Events: 0
+
+----------------------------------------
+TOP HIGH-RISK ENTITIES (ANONYMIZED)
+----------------------------------------
+
+Entity: c770207638586866
+  Risk Score: 0.493
+  Anomalous: NO
+  Cluster: 1
+
+Entity: 6121a8183f60a14d
+  Risk Score: 0.493
+  Anomalous: NO
+  Cluster: 1
+
+Entity: beabb0a42f286b03
+  Risk Score: 0.493
+  Anomalous: NO
+  Cluster: 1
+
+Entity: a5cdfdf642223a86
+  Risk Score: 0.493
+  Anomalous: NO
+  Cluster: 1
+
+Entity: d78eaec3f35eca0e
+  Risk Score: 0.493
+  Anomalous: NO
+  Cluster: 1
+
+================================================================================
+END OF REPORT
+================================================================================
