@@ -17,7 +17,7 @@ class GroupCoordinator:
 
     def detect_clusters(self, features_df: pd.DataFrame) -> pd.DataFrame:
         """
-        Identify dense abnormal behavioral clusters.
+        Identify dense abnormal behavioural clusters.
         """
         feature_columns = ['frequency', 'behavioral_drift', 'variance', 'anomaly_score']
         X = features_df[feature_columns].fillna(0)
