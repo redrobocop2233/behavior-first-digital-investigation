@@ -12,12 +12,15 @@ The system aims to aid:
 
 How to Run
 
-1) git clone [https://github.com/redrobocop2233/behavior-first-investigation.git](https://github.com/redrobocop2233/behavior-first-digital-investigation/tree/main)
-cd behavior-first-investigation
+1)
+    git clone [https://github.com/redrobocop2233/behavior-first-investigation.git](https://github.com/redrobocop2233/behavior-first-digital-investigation/tree/main)
+
+  cd behavior-first-investigation 
 
 2) Create a Virtual Environment
 
 python -m venv venv
+
 venv\Scripts\activate
 
 3) Install dependencies
@@ -25,6 +28,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 4) Dataset path
+
+
 results = investigator.run_investigation(
     forensics_path="data/forensics.csv",
     payment_path="data/payments.csv",
@@ -32,4 +37,5 @@ results = investigator.run_investigation(
 )
 
 5)Run The system
+
 python main.py
