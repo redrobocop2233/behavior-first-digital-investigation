@@ -119,7 +119,7 @@ class InvestigationReporter:
 
         report = []
         report.append("=" * 80)
-        report.append("BEHAVIOR-FIRST DIGITAL INVESTIGATION REPORT")
+        report.append("BEHAVIOUR-FIRST DIGITAL INVESTIGATION REPORT")
         report.append("=" * 80)
         report.append(f"\nReport Generated: {datetime.now()}")
         report.append(f"\nTotal Entities Analyzed: {len(results_df)}")
